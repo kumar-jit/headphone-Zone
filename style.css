@@ -1,0 +1,367 @@
+a:hover{
+    text-decoration: none;
+}
+.container-fluid{
+   margin: 0;
+   padding:0;
+ 
+        
+}
+#headline{
+    display: flex;
+    font-family:Garamond;
+    font-weight: bolder; 
+    font-size: 90px
+}
+html{
+    font-family: "monstar";
+}
+.banner-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:0; 
+    background-image: url(../img/headphone4.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+    margin-bottom: 20px;
+    padding: 0px;
+    
+}
+.banner{
+    margin: 0;
+    padding: 0;
+}
+.inner-style{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    
+}
+.banner-containt{
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.inner-style .banner-containt h1{
+    font-size: 60px 
+}
+.inner-style .banner-containt p{
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.b-round{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.banner-containt-product{
+   display:flex;
+   justify-content: center; 
+   align-items: center; 
+   min-height: 500px;
+}
+.banner-image-prdouct{
+    display: flex;
+   /* justify-content: center; */
+   /* align-items: center; */
+    margin-top:0; 
+    background-image: url(../img/headphone_2.jpg);
+    background-position: center;
+    background-size: cover;
+   /* width: 100%;
+    height:100%;*/
+   height: auto;
+   width: auto;
+    margin-bottom: 20px;
+    padding: 0px;    
+}
+.product-containt{
+    text-align: center;
+    color: white;
+    min-width:360px; 
+    min-height:100px;
+}
+.product-details{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    
+}
+.signup-background{
+    position: relative;
+    display:flexbox;
+    background-image: url(../img/singup.jpg);
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    height:120hv;
+    padding:5px; 
+}
+.product{
+    margin-top: -20px;
+    padding: 10px 50px 10px 50px;
+    
+    
+}
+.productt{
+    margin-top: -20px;
+    padding: 10px 50px 10px 50px;
+    
+    
+}
+.productp{
+    border-radius: 20px;
+    background:rgba(250,250,250, 0.7);
+    padding: 5px 30px 10px 30px;
+    margin:  40px 40px 40px 40px;
+    border: none;
+}
+.product-thumbnail{
+    padding-bottom:20px;
+}
+.product-thumbnail:hover{
+   box-shadow: 0 10px 15px rgba(0,0,0,0.7);
+}
+.signup{
+    position: relative;
+    margin-top:5%;
+    padding:0px 15px 0px 15px;
+    
+}
+.form-header{
+    color: white;
+    background: rgb(241,183,180);
+    border-radius: 15px;
+    margin:0 0% 15px 0%;
+    padding: 5px 0 5px 0;
+    border: 1px solid #cf8b86;
+}
+footer {
+    padding: 5px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+}
+.thumbnail{
+    box-shadow: 0px 3px 7px rgba(0,0,0,0.7);
+    border-radius: 20px;
+}
+
+.login-body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-page {
+    margin:0 -30% 0 -30%;
+}
+.panel-default{
+    background-color: #ed7e9f;
+}
+.panel-heading{
+    color: white;
+}
+.thumbnail-image{
+    max-height: 150px;
+    max-weigh:150px;
+    overflow: hidden;
+    background-position: center;
+    background-size:cover;
+}
+.thumbnail-image-lg{
+    max-height:200px;
+    max-weigh:200px;
+    overflow: hidden;
+    background-position: center;
+    background-size:cover;
+}
+.btns{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    border: 2px solid #ff7675;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+   
+    transition: 1s;
+    transition:0.6s;
+    text-align: center;
+}
+.btnsp{
+    color: white;
+    background: #38A8FF;
+    font-size: 14px;
+    text-decoration: none;
+    border: 2px solid #39A4F8;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: 1s;
+    transition:0.6s;
+    text-align: center;
+}
+.btns:hover{
+    background:#ff7675;
+    color: white;
+    transition:0.9s;
+    font-weight: bold;
+}
+.btnsp:hover{
+    background:#ff7675;
+    color: white;
+    transition:0.5s;
+    font-weight: bold;
+    border: none;
+}
+.about-banner-image{
+
+    background-image: url(../img/headphone.jpg);
+    background-size: cover;
+    width: 100%;
+    height:100%;
+    margin-bottom: 20px;
+
+    
+}
+.cart-body{
+   
+}
+.cart-containt{
+    display: inline-block;
+    padding: 10px 10px;
+    text-align: center;
+    display:inline-block;
+    width: 100%;
+
+}
+.cart-item-left{
+    display: inline-block;
+    float: left;
+    margin: 10px;
+}
+
+.cart-item-right{
+    float: right;
+    margin:10px; 
+}
+.cart-image{
+    border: 1px solid rgba(0,0,0,0.1);
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    text-align: center;
+    height: 120px;
+    width: 120px;
+}
+.cart-image:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+}
+.cart-button{
+   background: red;
+    margin-top:20px; 
+    text-align: center;
+}
+.cart-footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 20px
+}
+@media(max-width:720px) {
+
+    .product{
+        padding: 5px 1px 1px 5px;
+        margin: -10px;
+    }
+    .productp{
+    padding-bottom: 30px;
+    padding:2% 0% 2% 20%; 
+    padding-right: 20%;
+    border-radius: 20px;
+    background:rgba(250,250,250, 0.7);
+    border: none;
+}
+.banner-containt-product{
+   display:flex;
+   justify-content: center; 
+   align-items: center; 
+   min-height: 500px;
+}
+.btns{
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    border: 2px solid #ff7675;
+    border-radius: 30px;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s;
+    transition:0.6s;
+}
+.btnsp{
+    color: white;
+    background:#38A8FF;
+    font-size: 12px;
+    text-decoration: none;
+    border: 2px solid #39A4F8;
+    border-radius: 30px;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s;
+    transition:0.6s;
+}
+.product-thumbnail{
+   
+    margin:15px -40px 15px -40px;
+    padding:2px 5px 10px 5px;
+}
+.product-details{
+    display: inline;
+    padding: 20px
+}
+#headline{
+    display: flex;
+    font-family:Garamond;
+    font-weight: bolder; 
+    font-size: 50px
+}
+.thumbnail-image-lg{
+    max-height:120px;
+    max-weigh:120px;
+    overflow: hidden;
+    background-position: center;
+    background-size:cover;
+}
+.productt{
+    padding-left: 22%;
+}
+.cart-containt{
+    display:flex;
+    padding: 10px 10px;
+    text-align: center;
+    width: 100%;
+
+}
+.cart-image{
+    border: 1px solid rgba(0,0,0,0.1);
+    margin:20px 0px 10px 10px;
+    border-radius: 20px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+}
